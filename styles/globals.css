@@ -3,12 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-	html {
-		font-family: Inter;
-	}
+  html {
+    font-family: Inter;
+  }
 
-	.layout {
+  .layout {
     max-width: 68rem;
     @apply mx-auto w-11/12;
+  }
+
+  .min-h-main {
+    @apply min-h-[calc(100vh-82px)];
   }
 }

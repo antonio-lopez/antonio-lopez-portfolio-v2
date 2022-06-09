@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>Antonio Lopez</title>
       </Head>
-      <header>
+      <header className='shadow-sm sticky top-0 z-50 bg-lightBg'>
         <Navbar />
       </header>
       <main>{children}</main>
