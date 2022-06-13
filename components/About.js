@@ -10,7 +10,7 @@ import {
 
 const About = () => {
   return (
-    <section className='py-20'>
+    <section className='py-20' id='about'>
       <h1 className='text-2xl md:text-4xl'>About</h1>
       <div className='grid gap-y-5 md:grid-cols-2'>
         <img
