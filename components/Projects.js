@@ -20,22 +20,36 @@ const Projects = () => {
             return (
               <div
                 key={id}
-                className='scale-100 rounded-md border transition duration-100 hover:scale-[1.02] hover:border-blue-300 active:scale-[0.97] motion-safe:transform-gpu motion-reduce:hover:scale-100'
+                className='group scale-100 rounded-md border transition duration-100 hover:scale-[1.02] hover:border-blue-300 '
               >
                 <div className='flex h-full flex-col items-start rounded-md p-4'>
                   <div className='flex w-full items-center justify-between'>
-                    <h1>{title}</h1>
+                    <h1 className='mt-2 inline-block'>
+                      <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:cursor-pointer group-hover:bg-blue-200'>
+                        {title}
+                      </mark>
+                    </h1>
                     <div className='flex space-x-2'>
-                      <a href={demo} className='hover:text-blue-500'>
+                      <a
+                        rel='noopener noreferrer'
+                        target='_blank'
+                        href={demo}
+                        className='inline-block hover:text-blue-500'
+                      >
                         <BsBoxArrowUpRight />
                       </a>
-                      <a href={repository} className='hover:text-blue-500'>
+                      <a
+                        rel='noopener noreferrer'
+                        target='_blank'
+                        href={repository}
+                        className='inline-block hover:text-blue-500'
+                      >
                         <FaGithub />
                       </a>
                     </div>
                   </div>
                   <p className='mb-4 text-sm text-gray-700'>{description}</p>
-                  <ul className='flex w-full items-center justify-between  pb-5 text-sm text-gray-700'>
+                  <ul className='flex w-full items-center justify-between  pb-5 text-xs text-gray-700'>
                     {stack.map((tag, i) => {
                       return (
                         <li
@@ -53,14 +67,14 @@ const Projects = () => {
                     width={1440}
                     height={792}
                   />
-                  <div></div>
+                  {/* <div></div>
                   <Link href={demo}>
                     <p className='mt-2 inline-block font-medium'>
                       <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:cursor-pointer hover:bg-blue-200'>
                         More Details →
                       </mark>
                     </p>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             );

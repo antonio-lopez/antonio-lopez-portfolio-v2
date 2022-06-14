@@ -5,8 +5,9 @@ import { AiOutlineFileText } from 'react-icons/ai';
 const Main = () => {
   return (
     <section className='min-h-main -mt-20 mb-24 flex flex-col justify-center'>
+      {/* <img src='/blob.svg' alt='' className='absolute h-80 w-80' /> */}
       <h1 className=' text-lg font-bold lg:text-2xl'>Hi, my name is</h1>
-      <h2 className=' text-4xl font-bold lg:text-7xl'>Antonio Lopez</h2>
+      <h2 className='relative text-4xl font-bold lg:text-7xl'>Antonio Lopez</h2>
       <p className=' mt-6 text-sm text-gray-700 lg:text-xl'>
         I create interactive UIs one component at a time.
       </p>
