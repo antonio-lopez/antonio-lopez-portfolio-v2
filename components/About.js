@@ -11,14 +11,16 @@ import {
 const About = () => {
   return (
     <section className='py-20' id='about'>
-      <h1 className='text-2xl md:text-4xl'>About</h1>
+      <h1 className=' text-2xl font-bold dark:text-blue-500 md:text-4xl'>
+        <span className='bg-blue-300 dark:bg-transparent'>About</span>
+      </h1>
       <div className='grid gap-y-5 md:grid-cols-2'>
         <img
           src='/profile.jpeg'
           alt='profile'
-          className='mt-5 h-80 place-self-center self-center rounded-md text-gray-700 outline outline-4 hover:text-blue-500 md:mt-0'
+          className='mt-5 h-80 place-self-center self-center rounded-md text-gray-700 outline outline-4 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-500 md:mt-0'
         />
-        <p className='mt-2 text-gray-700 md:row-start-1'>
+        <p className='mt-2 text-gray-700 dark:text-gray-300 md:row-start-1'>
           Hello! My name is Antonio Lopez. I'm a full-stack web developer based
           in Orange County, CA. I work in the React ecosystem using HTML, CSS,
           and Javascript for the frontend. I have used different types of
@@ -35,7 +37,7 @@ const About = () => {
           watch anime, and read manga. Got any recommendations? Let's grab a
           pint and have a chat!
         </p>
-        <div className='grid grid-flow-col grid-rows-2 gap-5 place-self-center self-center text-gray-700 lg:grid-rows-1'>
+        <div className='grid grid-flow-col grid-rows-2 gap-5 place-self-center self-center text-gray-700 dark:text-gray-200 lg:grid-rows-1'>
           <SiReact className='h-10 w-10 hover:text-blue-500 ' />
           <SiNextdotjs className='h-10 w-10 hover:text-blue-500' />
           <SiJavascript className='h-10 w-10 hover:text-blue-500' />

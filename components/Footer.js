@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='py-4'>
         <div className='w-full border-t border-gray-200'></div>
       </div>
-      <div className='flex items-center justify-center space-x-4 text-gray-600'>
+      <div className='flex items-center justify-center space-x-4 text-gray-600 dark:text-gray-300'>
         {/* github link */}
         <a
           href='https://github.com/antonio-lopez'
@@ -24,7 +24,7 @@ const Footer = () => {
           <FaLinkedin className='h-7 w-7 hover:text-blue-500' />
         </a>
       </div>
-      <p className='mt-6 text-center text-sm text-gray-600'>
+      <p className='mt-6 text-center text-sm text-gray-600 dark:text-gray-300'>
         © Antonio Lopez 2022
       </p>
     </footer>

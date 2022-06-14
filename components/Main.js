@@ -6,12 +6,16 @@ const Main = () => {
   return (
     <section className='min-h-main -mt-20 mb-24 flex flex-col justify-center'>
       {/* <img src='/blob.svg' alt='' className='absolute h-80 w-80' /> */}
-      <h1 className=' text-lg font-bold lg:text-2xl'>Hi, my name is</h1>
-      <h2 className='relative text-4xl font-bold lg:text-7xl'>Antonio Lopez</h2>
-      <p className=' mt-6 text-sm text-gray-700 lg:text-xl'>
+      <h1 className=' text-lg font-bold dark:text-gray-200 lg:text-2xl'>
+        Hi, my name is
+      </h1>
+      <h2 className='relative text-4xl font-bold dark:text-blue-500 lg:text-7xl'>
+        Antonio Lopez
+      </h2>
+      <p className=' mt-6 text-sm text-gray-700 dark:text-gray-200 lg:text-xl'>
         I create interactive UIs one component at a time.
       </p>
-      <div className='mt-6 flex flex-wrap items-center gap-4 gap-y-2 text-sm text-gray-600'>
+      <div className='mt-6 flex flex-wrap items-center gap-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400'>
         {/* resume link */}
         <a
           href='/'
