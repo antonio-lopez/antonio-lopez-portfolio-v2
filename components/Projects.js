@@ -68,6 +68,7 @@ const Projects = () => {
                     })}
                   </ul>
                   <Image
+                    alt='project cover'
                     src={image}
                     className='mt-3'
                     width={1440}

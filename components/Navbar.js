@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { FaRegMoon, FaRegSun } from 'react-icons/fa';
 import { useTheme } from 'next-themes';
 
@@ -8,40 +9,48 @@ const Navbar = () => {
     <div className='layout flex items-center justify-between py-5'>
       <ul className='flex space-x-2 text-sm md:space-x-3 md:text-base'>
         <li>
-          <a href='/'>
-            <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
-              <span className='dark:text-gray-200 dark:hover:text-blue-500'>
-                Home
-              </span>
-            </mark>
-          </a>
+          <Link href='/'>
+            <a>
+              <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
+                <span className='dark:text-gray-200 dark:hover:text-blue-500'>
+                  Home
+                </span>
+              </mark>
+            </a>
+          </Link>
         </li>
         <li>
-          <a href='#projects'>
-            <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
-              <span className='dark:text-gray-200 dark:hover:text-blue-500'>
-                Projects
-              </span>
-            </mark>
-          </a>
+          <Link href='#projects'>
+            <a>
+              <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
+                <span className='dark:text-gray-200 dark:hover:text-blue-500'>
+                  Projects
+                </span>
+              </mark>
+            </a>
+          </Link>
         </li>
         <li>
-          <a href='#about'>
-            <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
-              <span className='dark:text-gray-200 dark:hover:text-blue-500'>
-                About
-              </span>
-            </mark>
-          </a>
+          <Link href='#about'>
+            <a>
+              <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
+                <span className='dark:text-gray-200 dark:hover:text-blue-500'>
+                  About
+                </span>
+              </mark>
+            </a>
+          </Link>
         </li>
         <li>
-          <a href='/'>
-            <mark className=' inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
-              <span className='dark:text-gray-200 dark:hover:text-blue-500'>
-                Resume
-              </span>
-            </mark>
-          </a>
+          <Link href='/'>
+            <a>
+              <mark className=' inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
+                <span className='dark:text-gray-200 dark:hover:text-blue-500'>
+                  Resume
+                </span>
+              </mark>
+            </a>
+          </Link>
         </li>
       </ul>
       <button
