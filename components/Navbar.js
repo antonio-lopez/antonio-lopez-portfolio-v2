@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaRegMoon } from 'react-icons/fa';
+import { FaRegMoon, FaRegSun } from 'react-icons/fa';
 import { useTheme } from 'next-themes';
 
 const Navbar = () => {
@@ -48,7 +48,7 @@ const Navbar = () => {
         onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
         className='rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500 '
       >
-        <FaRegMoon />
+        {theme === 'dark' ? <FaRegSun /> : <FaRegMoon />}
       </button>
     </div>
   );
