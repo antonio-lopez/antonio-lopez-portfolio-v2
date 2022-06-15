@@ -16,9 +16,9 @@
 
 ## About The Project
 
-🌐 [Live Demo]()
+🌐 [Live Demo](https://www.antoniolopez.me/)
 
-![screenshot]()
+![screenshot](/public/projects/al-profile-full-screenshot.png)
 
 - A responsive, full-stack, Next.js application.
 - Light and dark mode.

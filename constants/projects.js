@@ -20,6 +20,16 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'Portfolio',
+    description:
+      'My responsive, portfolio created in Next.js showcasing my projects.',
+    image: '/projects/al-portfolio-screenshot.png',
+    stack: ['Next.js', 'React.js', 'Tailwind CSS', 'Dark Mode'],
+    repository: 'https://github.com/antonio-lopez/antonio-lopez-portfolio-v2',
+    demo: 'https://antonio-lopez.vercel.app/',
+    id: 2,
+  },
+  {
     title: 'Travel Advisor',
     description:
       "A React application that searches for restaurants, hotels, and attractions based on your location using RapidAPI's Travel Advisor API.",
@@ -27,7 +37,7 @@ export const projects = [
     stack: ['React', 'Material UI', 'Axios', 'API', 'Google Maps'],
     repository: 'https://github.com/antonio-lopez/google-maps-travel-advisor',
     demo: 'https://antonio-travel-advisor.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Disney Plus Clone',
@@ -37,7 +47,7 @@ export const projects = [
     stack: ['React', 'Firebase', 'Redux', 'Styled Components'],
     repository: 'https://github.com/antonio-lopez/react-disney-plus-clone',
     demo: 'https://antonio-disneyplus-clone.netlify.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Agency Landing Page',
@@ -48,8 +58,11 @@ export const projects = [
     repository:
       'https://github.com/antonio-lopez/fm-sunnyside-agency-landing-page',
     demo: 'https://antonio-sunny-agency-landing.netlify.app/',
-    id: 4,
+    id: 5,
   },
+];
+
+export const otherProjects = [
   {
     title: 'Company Landing Page',
     description:
@@ -58,6 +71,57 @@ export const projects = [
     stack: ['React', 'Tailwind CSS', 'Flowbite'],
     repository: 'https://github.com/antonio-lopez/fm-manage-landing-page',
     demo: 'https://antonio-fm-landing-page.netlify.app/',
+    id: 0,
+  },
+  {
+    title: 'Netflix Clone',
+    description:
+      'A React Netflix clone that uses The Movie DB API to fetch movie/show data and images. A trailer pops up when selecting a movie/show.',
+    image: '/projects/netflix-clone-screenshot.png',
+    stack: ['React', 'Axios', 'API', 'Youtube'],
+    repository: 'https://github.com/antonio-lopez/react-netflix-clone',
+    demo: 'https://antonio-netflix-clone.netlify.app/',
+    id: 1,
+  },
+  {
+    title: 'Remote Landing Page',
+    description:
+      'A responsive landing page for remote work. Interactive desktop and mobile navigation links.',
+    image: '/projects/drop-nav-screenshot.png',
+    stack: ['HTML', 'Tailwind CSS', 'CSS Grid', 'Flexbox'],
+    repository:
+      'https://github.com/antonio-lopez/fm-intro-section-dropdown-nav',
+    demo: 'https://antonio-intro-section-dropdown-nav.netlify.app/',
+    id: 2,
+  },
+  {
+    title: 'Covid Tracker',
+    description:
+      'A covid tracker application in which I was the team leader. Created in Docker for cross operating system development.',
+    image: '/projects/covid-tracker-screenshot.png',
+    stack: ['React', 'Docker', 'Material UI', 'Axios'],
+    repository: 'https://github.com/antonio-lopez/cpsc-349-project-two',
+    demo: 'https://antonio-covid19-tracker.netlify.app/',
+    id: 3,
+  },
+  {
+    title: 'Photo Agency Landing Page',
+    description:
+      'A fake photo agency page made with HTML and CSS. Inspired by Dribble and photos taken from Unsplash and Pexels.',
+    image: '/projects/photo-agency-screenshot.png',
+    stack: ['HTML', 'CSS'],
+    repository: 'https://github.com/antonio-lopez/photo-agency-landing-pg',
+    demo: 'https://antonio-photo-agency.netlify.app/',
+    id: 4,
+  },
+  {
+    title: 'AirBnB Clone',
+    description:
+      'A React Airbnb clone using Material UI for design and React Router for page navigation.',
+    image: '/projects/airbnb-clone-screenshot.png',
+    stack: ['React', 'React Router', 'Material UI'],
+    repository: 'https://github.com/antonio-lopez/react-airbnb-clone',
+    demo: 'https://antonio-airbnb-clone.netlify.app/',
     id: 5,
   },
 ];
