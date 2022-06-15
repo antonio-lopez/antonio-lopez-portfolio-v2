@@ -42,15 +42,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href='/'>
-            <a>
-              <mark className=' inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
-                <span className='dark:text-gray-200 dark:hover:text-blue-500'>
-                  Resume
-                </span>
-              </mark>
-            </a>
-          </Link>
+          <a href='/Antonio-Lopez-Resume.docx' download>
+            <mark className=' inline-block bg-transparent px-1 pb-2 leading-[0] hover:bg-blue-200 dark:hover:bg-transparent'>
+              <span className='dark:text-gray-200 dark:hover:text-blue-500'>
+                Resume
+              </span>
+            </mark>
+          </a>
         </li>
       </ul>
       <button
