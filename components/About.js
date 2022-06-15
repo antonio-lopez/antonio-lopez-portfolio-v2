@@ -16,7 +16,7 @@ const About = () => {
       </h1>
       <div className='grid gap-y-5 md:grid-cols-2'>
         <img
-          src='/profile.jpeg'
+          src='/projects/profile.jpeg'
           alt='profile'
           className='mt-5 h-80 w-auto place-self-center self-center rounded-md text-gray-700 outline outline-4 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-500 md:mt-0'
         />
