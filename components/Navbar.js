@@ -6,7 +6,7 @@ import { useTheme } from 'next-themes';
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <div className='layout flex items-center justify-between py-5'>
+    <nav className='layout flex items-center justify-between py-5'>
       <ul className='flex space-x-2 text-sm md:space-x-3 md:text-base'>
         <li>
           <Link href='/'>
@@ -57,7 +57,7 @@ const Navbar = () => {
       >
         {theme === 'dark' ? <FaRegSun /> : <FaRegMoon />}
       </button>
-    </div>
+    </nav>
   );
 };
 
