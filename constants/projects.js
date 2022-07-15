@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Amiibo Hub',
     description:
-      'A fake Next.js Ecommerce store where you can purchase an assortment of Amiibos at unbeatable prices.',
+      'A fake Next.js Ecommerce store that uses Stripe to purchase Amiibos. Products are easily managed using Sanity, a content management system.',
     image: '/projects/amiibohub-screenshot.png',
     stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
     repository: 'https://github.com/antonio-lopez/next-js-ecommerce',
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'Re-Capture',
     description:
-      'A responsive, full stack MERN (MongoDB, Express, React, Node.js) journal application.',
+      'A responsive, full stack MERN (MongoDB, Express, React, Node.js) journal application where users can sign in and can create, edit, and delete journal entries.',
     image: '/projects/re-capture-cover-screenshot.png',
     stack: ['React', 'Express.js', 'Node.js', 'MongoDB', 'Redux'],
     repository: 'https://github.com/antonio-lopez/re-capture',
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: 'Portfolio',
     description:
-      'My responsive, portfolio created in Next.js showcasing my projects.',
+      'My responsive, portfolio created in Next.js showcasing my projects and skills. Styling and dark mode was created using Tailwind CSS and Next Themes.',
     image: '/projects/al-portfolio-screenshot.png',
     stack: ['Next.js', 'React.js', 'Tailwind CSS', 'Dark Mode'],
     repository: 'https://github.com/antonio-lopez/antonio-lopez-portfolio-v2',
@@ -50,14 +50,13 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'Agency Landing Page',
+    title: 'Website Agency Landing Page',
     description:
-      'A responsive, fake agency landing page made in HTML. Tailwind CSS was used for styling along with Javascript for mobile menu active states.',
-    image: '/projects/sunnyside-screenshot.png',
-    stack: ['HTML', 'Tailwind CSS', 'Grid', 'Flexbox', 'Javascript'],
-    repository:
-      'https://github.com/antonio-lopez/fm-sunnyside-agency-landing-page',
-    demo: 'https://antonio-sunny-agency-landing.netlify.app/',
+      'A responsive, website agency landing page made in Next.js. The design was replicated using Tailwind CSS for styling and Daisy UI for the images carousel.',
+    image: '/projects/we-make-websites-cover.png',
+    stack: ['Next.js', 'Tailwind CSS', 'Grid', 'Flexbox', 'Daisy UI'],
+    repository: 'https://github.com/antonio-lopez/we-make-websites',
+    demo: 'https://we-make-websites.vercel.app/',
     id: 5,
   },
 ];
@@ -74,13 +73,14 @@ export const otherProjects = [
     id: 0,
   },
   {
-    title: 'Netflix Clone',
+    title: 'Agency Landing Page',
     description:
-      'A React Netflix clone that uses The Movie DB API to fetch movie/show data and images. A trailer pops up when selecting a movie/show.',
-    image: '/projects/netflix-clone-screenshot.png',
-    stack: ['React', 'Axios', 'API', 'Youtube'],
-    repository: 'https://github.com/antonio-lopez/react-netflix-clone',
-    demo: 'https://antonio-netflix-clone.netlify.app/',
+      'A responsive, fake agency landing page made in HTML. Tailwind CSS and Javascript was used for styling and mobile menu active states.',
+    image: '/projects/sunnyside-screenshot.png',
+    stack: ['HTML', 'Tailwind CSS', 'Grid', 'Flexbox', 'Javascript'],
+    repository:
+      'https://github.com/antonio-lopez/fm-sunnyside-agency-landing-page',
+    demo: 'https://antonio-sunny-agency-landing.netlify.app/',
     id: 1,
   },
   {
@@ -105,13 +105,13 @@ export const otherProjects = [
     id: 3,
   },
   {
-    title: 'Photo Agency Landing Page',
+    title: 'Netflix Clone',
     description:
-      'A fake photo agency page made with HTML and CSS. Inspired by Dribble and photos taken from Unsplash and Pexels.',
-    image: '/projects/photo-agency-screenshot.png',
-    stack: ['HTML', 'CSS'],
-    repository: 'https://github.com/antonio-lopez/photo-agency-landing-pg',
-    demo: 'https://antonio-photo-agency.netlify.app/',
+      'A React Netflix clone that uses The Movie DB API to fetch movie/show data and images. A trailer pops up when selecting a movie/show.',
+    image: '/projects/netflix-clone-screenshot.png',
+    stack: ['React', 'Axios', 'API', 'Youtube'],
+    repository: 'https://github.com/antonio-lopez/react-netflix-clone',
+    demo: 'https://antonio-netflix-clone.netlify.app/',
     id: 4,
   },
   {

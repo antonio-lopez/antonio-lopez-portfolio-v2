@@ -30,29 +30,11 @@ const Projects = () => {
                   <div className='flex w-full items-center justify-between'>
                     <h1 className='mt-2 inline-block'>
                       <span className='font-bold  md:text-lg'>
-                        <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] group-hover:bg-blue-200 dark:text-gray-200 dark:group-hover:bg-transparent dark:group-hover:text-blue-500'>
+                        <mark className='inline-block bg-transparent  pb-2 leading-[0] group-hover:bg-blue-200 dark:text-gray-200 dark:group-hover:bg-transparent dark:group-hover:text-blue-500'>
                           {title}
                         </mark>
                       </span>
                     </h1>
-                    <div className='flex space-x-2'>
-                      <a
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        href={demo}
-                        className='inline-block hover:text-blue-500'
-                      >
-                        <BsBoxArrowUpRight />
-                      </a>
-                      <a
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        href={repository}
-                        className='inline-block hover:text-blue-500'
-                      >
-                        <FaGithub />
-                      </a>
-                    </div>
                   </div>
                   <p className='mb-4 text-sm text-gray-700 dark:text-gray-300'>
                     {description}
@@ -76,6 +58,26 @@ const Projects = () => {
                     width={1440}
                     height={792}
                   />
+                  <div className='flex w-full justify-between px-10 pt-6 pb-2'>
+                    <a
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      href={demo}
+                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                    >
+                      <span className='pr-2'>Live</span>
+                      <BsBoxArrowUpRight />
+                    </a>
+                    <a
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      href={repository}
+                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                    >
+                      <span className='pr-2'>Code</span>
+                      <FaGithub />
+                    </a>
+                  </div>
                 </div>
               </div>
             );
@@ -108,29 +110,11 @@ const Projects = () => {
                   <div className='flex w-full items-center justify-between'>
                     <h1 className='mt-2 inline-block'>
                       <span className='font-bold  md:text-lg'>
-                        <mark className='inline-block bg-transparent px-1 pb-2 leading-[0] group-hover:bg-blue-200 dark:text-gray-200 dark:group-hover:bg-transparent dark:group-hover:text-blue-500'>
+                        <mark className='inline-block bg-transparent pb-2 leading-[0] group-hover:bg-blue-200 dark:text-gray-200 dark:group-hover:bg-transparent dark:group-hover:text-blue-500'>
                           {title}
                         </mark>
                       </span>
                     </h1>
-                    <div className='flex space-x-2'>
-                      <a
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        href={demo}
-                        className='inline-block hover:text-blue-500'
-                      >
-                        <BsBoxArrowUpRight />
-                      </a>
-                      <a
-                        rel='noopener noreferrer'
-                        target='_blank'
-                        href={repository}
-                        className='inline-block hover:text-blue-500'
-                      >
-                        <FaGithub />
-                      </a>
-                    </div>
                   </div>
                   <p className='mb-4 text-sm text-gray-700 dark:text-gray-300'>
                     {description}
@@ -154,6 +138,26 @@ const Projects = () => {
                     width={1440}
                     height={792}
                   />
+                  <div className='flex w-full justify-between px-10 pt-6 pb-2'>
+                    <a
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      href={demo}
+                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                    >
+                      <span className='pr-2'>Live</span>
+                      <BsBoxArrowUpRight />
+                    </a>
+                    <a
+                      rel='noopener noreferrer'
+                      target='_blank'
+                      href={repository}
+                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                    >
+                      <span className='pr-2'>Code</span>
+                      <FaGithub />
+                    </a>
+                  </div>
                 </div>
               </div>
             );
