@@ -18,7 +18,7 @@ const About = () => {
         <img
           src='/projects/profile.jpeg'
           alt='profile'
-          className='mt-5 h-80 w-auto place-self-center self-center rounded-md text-gray-700 outline outline-4 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-500 md:mt-0'
+          className='mt-5 h-80 w-auto place-self-center self-center rounded-md ring-4 ring-black hover:ring-blue-500 dark:ring-gray-200 dark:hover:ring-blue-500 md:mt-0'
         />
         <p className='mt-2 text-gray-700 dark:text-gray-300 md:row-start-1'>
           Hello! My name is Antonio Lopez. I'm a full-stack web developer based

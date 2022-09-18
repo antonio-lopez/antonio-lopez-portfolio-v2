@@ -63,7 +63,7 @@ const Projects = () => {
                       rel='noopener noreferrer'
                       target='_blank'
                       href={demo}
-                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                      className='flex items-center rounded-md p-2 ring-1 ring-slate-300 hover:text-blue-500 hover:ring-blue-500'
                     >
                       <span className='pr-2'>Live</span>
                       <BsBoxArrowUpRight />
@@ -72,7 +72,7 @@ const Projects = () => {
                       rel='noopener noreferrer'
                       target='_blank'
                       href={repository}
-                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                      className='flex items-center rounded-md p-2 ring-1 ring-slate-300 hover:text-blue-500 hover:ring-blue-500'
                     >
                       <span className='pr-2'>Code</span>
                       <FaGithub />
@@ -86,7 +86,7 @@ const Projects = () => {
         <div className='flex w-full items-center justify-center pt-5'>
           <button
             onClick={() => setIsOpen((open) => !open)}
-            className='rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+            className='rounded-md p-2 ring-1 ring-slate-300 hover:text-blue-500 hover:ring-blue-500'
           >
             More Projects
           </button>
@@ -143,7 +143,7 @@ const Projects = () => {
                       rel='noopener noreferrer'
                       target='_blank'
                       href={demo}
-                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                      className='flex items-center rounded-md p-2 ring-1 ring-slate-300 hover:text-blue-500 hover:ring-blue-500'
                     >
                       <span className='pr-2'>Live</span>
                       <BsBoxArrowUpRight />
@@ -152,7 +152,7 @@ const Projects = () => {
                       rel='noopener noreferrer'
                       target='_blank'
                       href={repository}
-                      className='flex items-center rounded-md p-2 outline outline-1 outline-slate-300 hover:text-blue-500 hover:outline-blue-500'
+                      className='flex items-center rounded-md p-2 ring-1 ring-slate-300 hover:text-blue-500 hover:ring-blue-500'
                     >
                       <span className='pr-2'>Code</span>
                       <FaGithub />

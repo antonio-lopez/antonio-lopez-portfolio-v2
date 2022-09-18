@@ -17,16 +17,6 @@ const Main = () => {
           I create interactive UIs one component at a time.
         </p>
         <div className='mt-6 flex flex-wrap items-center gap-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400'>
-          {/* resume link */}
-          <a
-            href='/Antonio-Lopez-Resume.docx'
-            download
-            aria-label='Antonio Lopez resume'
-            className='flex space-x-1 hover:text-blue-500'
-          >
-            <AiOutlineFileText className='h-5 w-5' />
-            <span>Resume</span>
-          </a>
           {/* github link */}
           <a
             href='https://github.com/antonio-lopez'
