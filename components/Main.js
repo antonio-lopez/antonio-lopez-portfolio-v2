@@ -1,7 +1,5 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { AiOutlineFileText } from 'react-icons/ai';
-import Link from 'next/link';
 
 const Main = () => {
   return (
@@ -14,7 +12,8 @@ const Main = () => {
           Antonio Lopez
         </h2>
         <p className=' mt-6 text-sm text-gray-700 dark:text-gray-200 lg:text-xl'>
-          I create interactive UIs one component at a time.
+          I create simple and functional interactive user interfaces, one
+          component at a time.
         </p>
         <div className='mt-6 flex flex-wrap items-center gap-4 gap-y-2 text-sm text-gray-600 dark:text-gray-400'>
           {/* github link */}

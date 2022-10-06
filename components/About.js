@@ -22,22 +22,23 @@ const About = () => {
         />
         <p className='mt-2 text-gray-700 dark:text-gray-300 md:row-start-1'>
           Hello! My name is Antonio Lopez. I'm a full-stack web developer based
-          in Orange County, CA. I work in the React ecosystem using HTML, CSS,
-          and Javascript for the frontend. I have used different types of
-          styling methods and frameworks including vanilla CSS 3, Bootstrap, and
-          Material UI. The current CSS framework I am using is Tailwind CSS and
-          love it. For the backend I use Node.js and Express along with MongoDB
-          and Google Firebase's Firestore as the database.
+          in Orange County, CA. I work in the React.js ecosystem using Next.js
+          as my frontend framework of choice and Tailwind CSS for styling. For
+          the backend I use Node.js and Express.js when working with APIs along
+          Postman for testing and debugging routes. I have used MongoDB and
+          Google's Firebase Firestore as the database but have recently starting
+          working with content management systems like Sanity.
           <br />
           <br />
           When I'm not staring at my computer screen all day I like to drive to
           different cities and catch live bands playing. I listen to more punk
           genres but enjoy listening to others when I'm in the mood. I frequent
-          many craft breweries (hazy IPAs are my favorite), listen to podcasts,
-          watch anime, and read manga. Got any recommendations? Let's grab a
-          pint and have a chat!
+          many craft breweries (hazy IPAs are my favorite), but to keep my diet
+          in check I workout and weight lift. I also listen to podcasts, watch
+          anime, and read manga. Got any recommendations? Let's grab a pint and
+          have a chat!
         </p>
-        <div className='grid grid-flow-col grid-rows-2 gap-5 place-self-center self-center text-gray-700 dark:text-gray-200 lg:grid-rows-1'>
+        <div className='grid grid-flow-col grid-rows-2 gap-5 place-self-center self-center pt-8 text-gray-700 dark:text-gray-200 lg:col-span-2 lg:grid-rows-1'>
           <SiReact className='h-10 w-10 hover:text-blue-500 ' />
           <SiNextdotjs className='h-10 w-10 hover:text-blue-500' />
           <SiJavascript className='h-10 w-10 hover:text-blue-500' />
