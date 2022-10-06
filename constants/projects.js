@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Modern Times Brewery Ecommerce',
+    description:
+      "A redesign of the Modern Times brewery online store using Sanity.io as the CMS to manage the store's inventory and blog posts and Stripe for checkout.",
+    image: '/projects/modern-times-screenshot.png',
+    stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
+    repository: 'https://github.com/antonio-lopez/nextjs-drinks-ecommerce',
+    demo: 'https://antonio-modern-times.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Amiibo Hub',
     description:
       'A fake Next.js Ecommerce store that uses Stripe to purchase Amiibos. Products are easily managed using Sanity, a content management system.',
@@ -7,7 +17,7 @@ export const projects = [
     stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
     repository: 'https://github.com/antonio-lopez/next-js-ecommerce',
     demo: 'https://antonio-amiibo-hub.vercel.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Re-Capture',
@@ -17,7 +27,7 @@ export const projects = [
     stack: ['React', 'Express.js', 'Node.js', 'MongoDB', 'Redux'],
     repository: 'https://github.com/antonio-lopez/re-capture',
     demo: 'https://antonio-re-capture.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Portfolio',
@@ -27,7 +37,7 @@ export const projects = [
     stack: ['Next.js', 'React.js', 'Tailwind CSS', 'Dark Mode'],
     repository: 'https://github.com/antonio-lopez/antonio-lopez-portfolio-v2',
     demo: 'https://antonio-lopez.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Travel Advisor',
@@ -37,16 +47,6 @@ export const projects = [
     stack: ['React', 'Material UI', 'Axios', 'API', 'Google Maps'],
     repository: 'https://github.com/antonio-lopez/google-maps-travel-advisor',
     demo: 'https://antonio-travel-advisor.netlify.app/',
-    id: 3,
-  },
-  {
-    title: 'Disney Plus Clone',
-    description:
-      "A React Disney+ clone using Firebase and Redux. Firebase is used for handling a user's authentication and movie storage. Redux is used for handling a user and movie state.",
-    image: '/projects/disneyplus-clone-screenshot.png',
-    stack: ['React', 'Firebase', 'Redux', 'Styled Components'],
-    repository: 'https://github.com/antonio-lopez/react-disney-plus-clone',
-    demo: 'https://antonio-disneyplus-clone.netlify.app/',
     id: 4,
   },
   {
@@ -115,6 +115,16 @@ export const otherProjects = [
     id: 4,
   },
   {
+    title: 'Disney Plus Clone',
+    description:
+      "A React Disney+ clone using Firebase and Redux. Firebase is used for handling a user's authentication and movie storage. Redux is used for handling a user and movie state.",
+    image: '/projects/disneyplus-clone-screenshot.png',
+    stack: ['React', 'Firebase', 'Redux', 'Styled Components'],
+    repository: 'https://github.com/antonio-lopez/react-disney-plus-clone',
+    demo: 'https://antonio-disneyplus-clone.netlify.app/',
+    id: 5,
+  },
+  {
     title: 'AirBnB Clone',
     description:
       'A React Airbnb clone using Material UI for design and React Router for page navigation.',
@@ -122,6 +132,6 @@ export const otherProjects = [
     stack: ['React', 'React Router', 'Material UI'],
     repository: 'https://github.com/antonio-lopez/react-airbnb-clone',
     demo: 'https://antonio-airbnb-clone.netlify.app/',
-    id: 5,
+    id: 6,
   },
 ];
