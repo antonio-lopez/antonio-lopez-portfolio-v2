@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
               'An online portfolio by Antonio Lopez. Showcase of my projects and information about me.',
             images: [
               {
-                url: 'https://raw.githubusercontent.com/antonio-lopez/nextjs-drinks-ecommerce/main/public/images/og-modern-times-home.png',
+                url: 'https://raw.githubusercontent.com/antonio-lopez/antonio-lopez-portfolio-v2/main/public/projects/seo-cover.png',
                 width: 800,
                 height: 600,
                 alt: 'Portfolio cover',
