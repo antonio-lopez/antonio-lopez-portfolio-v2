@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { FaRegMoon, FaRegSun } from 'react-icons/fa';
 import { useTheme } from 'next-themes';
 
 const Navbar = () => {
+  const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return null;
+  }
   return (
     <nav className='layout flex items-center justify-between py-5'>
       <ul className='flex space-x-2 text-sm md:space-x-3 md:text-base'>
