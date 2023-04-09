@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Sk8NMeet Santana',
+    description:
+      'The Sk8NMeet Santana website where you can view upcoming / past meetups, photos from meetups, and contact team members.',
+    image: '/projects/homepage-sk8nmeet-santana.png',
+    stack: ['NextJS', 'Sanity.io', 'Storybook', 'Cloudinary'],
+    repository: 'https://github.com/antonio-lopez/sk8-n-meet',
+    demo: 'https://sk8nmeetsantana.com/',
+    id: 0,
+  },
+  {
     title: 'Anilog',
     description:
       'An anime and manga tracker built with NextJS and GraphQL. The Anilist GraphQL API is used for static and dynamic queries on the server and client.',
@@ -7,7 +17,7 @@ export const projects = [
     stack: ['NextJS', 'Tailwind CSS', 'GraphQL', 'Storybook'],
     repository: 'https://github.com/antonio-lopez/anilog',
     demo: 'https://anilog.vercel.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Modern Times Brewery Ecommerce',
@@ -17,7 +27,7 @@ export const projects = [
     stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
     repository: 'https://github.com/antonio-lopez/nextjs-drinks-ecommerce',
     demo: 'https://antonio-modern-times.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Amiibo Hub',
@@ -27,7 +37,7 @@ export const projects = [
     stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
     repository: 'https://github.com/antonio-lopez/next-js-ecommerce',
     demo: 'https://antonio-amiibo-hub.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Re-Capture',
@@ -37,16 +47,6 @@ export const projects = [
     stack: ['React', 'Express.js', 'Node.js', 'MongoDB', 'Redux'],
     repository: 'https://github.com/antonio-lopez/re-capture',
     demo: 'https://antonio-re-capture.netlify.app/',
-    id: 3,
-  },
-  {
-    title: 'Portfolio',
-    description:
-      'My responsive, portfolio created in Next.js showcasing my projects and skills. Styling and dark mode was created using Tailwind CSS and Next Themes.',
-    image: '/projects/al-portfolio-screenshot.png',
-    stack: ['Next.js', 'React.js', 'Tailwind CSS', 'Dark Mode'],
-    repository: 'https://github.com/antonio-lopez/antonio-lopez-portfolio-v2',
-    demo: 'https://antonio-lopez.vercel.app/',
     id: 4,
   },
   {
@@ -62,6 +62,16 @@ export const projects = [
 ];
 
 export const otherProjects = [
+   {
+    title: 'Portfolio',
+    description:
+      'My responsive, portfolio created in Next.js showcasing my projects and skills. Styling and dark mode was created using Tailwind CSS and Next Themes.',
+    image: '/projects/al-portfolio-screenshot.png',
+    stack: ['Next.js', 'React.js', 'Tailwind CSS', 'Dark Mode'],
+    repository: 'https://github.com/antonio-lopez/antonio-lopez-portfolio-v2',
+    demo: 'https://antonio-lopez.vercel.app/',
+    id: 0,
+  },
   {
     title: 'Website Agency Landing Page',
     description:
@@ -70,7 +80,7 @@ export const otherProjects = [
     stack: ['Next.js', 'Tailwind CSS', 'Grid', 'Flexbox', 'Daisy UI'],
     repository: 'https://github.com/antonio-lopez/we-make-websites',
     demo: 'https://we-make-websites.vercel.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Company Landing Page',
@@ -80,7 +90,7 @@ export const otherProjects = [
     stack: ['React', 'Tailwind CSS', 'Flowbite'],
     repository: 'https://github.com/antonio-lopez/fm-manage-landing-page',
     demo: 'https://antonio-fm-landing-page.netlify.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Agency Landing Page',
@@ -91,7 +101,7 @@ export const otherProjects = [
     repository:
       'https://github.com/antonio-lopez/fm-sunnyside-agency-landing-page',
     demo: 'https://antonio-sunny-agency-landing.netlify.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Remote Landing Page',
@@ -102,7 +112,7 @@ export const otherProjects = [
     repository:
       'https://github.com/antonio-lopez/fm-intro-section-dropdown-nav',
     demo: 'https://antonio-intro-section-dropdown-nav.netlify.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Covid Tracker',
@@ -112,7 +122,7 @@ export const otherProjects = [
     stack: ['React', 'Docker', 'Material UI', 'Axios'],
     repository: 'https://github.com/antonio-lopez/cpsc-349-project-two',
     demo: 'https://antonio-covid19-tracker.netlify.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Netflix Clone',
@@ -122,7 +132,7 @@ export const otherProjects = [
     stack: ['React', 'Axios', 'API', 'Youtube'],
     repository: 'https://github.com/antonio-lopez/react-netflix-clone',
     demo: 'https://antonio-netflix-clone.netlify.app/',
-    id: 5,
+    id: 6,
   },
   {
     title: 'Disney Plus Clone',
@@ -132,7 +142,7 @@ export const otherProjects = [
     stack: ['React', 'Firebase', 'Redux', 'Styled Components'],
     repository: 'https://github.com/antonio-lopez/react-disney-plus-clone',
     demo: 'https://antonio-disneyplus-clone.netlify.app/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'AirBnB Clone',
@@ -142,6 +152,6 @@ export const otherProjects = [
     stack: ['React', 'React Router', 'Material UI'],
     repository: 'https://github.com/antonio-lopez/react-airbnb-clone',
     demo: 'https://antonio-airbnb-clone.netlify.app/',
-    id: 7,
+    id: 8,
   },
 ];

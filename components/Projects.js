@@ -54,7 +54,7 @@ const Projects = () => {
                   <Image
                     alt='project cover'
                     src={image}
-                    className='mt-3'
+                    className='object-cover object-top'
                     width={1440}
                     height={792}
                   />

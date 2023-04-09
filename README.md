@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# Amiibo Hub
+# Antonio Lopez Portfolio
 
 > My personal portfolio created in Next.js showcasing my projects.
 
@@ -18,7 +18,7 @@
 
 🌐 [Live Demo](https://www.antoniolopez.me/)
 
-![screenshot](/public/projects/al-profile-full-screenshot.png)
+![screenshot](/public/projects/portfolio-screenshot.png)
 
 - A responsive, full-stack, Next.js application.
 - Light and dark mode.
