@@ -20,6 +20,16 @@ export const projects = [
     id: 1,
   },
   {
+    title: 'What The Park',
+    description:
+      "Explore national parks from across the United States. Ensure a seamless and stress-free journey to your destination by viewing general park information, weather conditions, and ways of getting there.",
+    image: '/projects/home.webp',
+    stack: ['NextJS', 'Tailwind CSS', 'Zod', 'Shadcn UI'],
+    repository: 'https://github.com/antonio-lopez/what-the-park',
+    demo: 'https://what-the-park.vercel.app/',
+    id: 2,
+  },
+  {
     title: 'Modern Times Brewery Ecommerce',
     description:
       "A redesign of the Modern Times brewery online store using Sanity.io as the CMS to manage the store's inventory and blog posts and Stripe for checkout.",
@@ -27,7 +37,7 @@ export const projects = [
     stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
     repository: 'https://github.com/antonio-lopez/nextjs-drinks-ecommerce',
     demo: 'https://antonio-modern-times.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Amiibo Hub',
@@ -37,16 +47,6 @@ export const projects = [
     stack: ['React', 'NextJS', 'Tailwind CSS', 'Sanity', 'Stripe'],
     repository: 'https://github.com/antonio-lopez/next-js-ecommerce',
     demo: 'https://antonio-amiibo-hub.vercel.app/',
-    id: 3,
-  },
-  {
-    title: 'Re-Capture',
-    description:
-      'A responsive, full stack MERN (MongoDB, Express, React, Node.js) journal application where users can sign in and can create, edit, and delete journal entries.',
-    image: '/projects/re-capture-cover-screenshot.png',
-    stack: ['React', 'Express.js', 'Node.js', 'MongoDB', 'Redux'],
-    repository: 'https://github.com/antonio-lopez/re-capture',
-    demo: 'https://antonio-re-capture.netlify.app/',
     id: 4,
   },
   {
